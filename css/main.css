@@ -8,6 +8,7 @@ form {
   border-radius: 15px;
   border: 1px white solid;
   backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 30px rgba(2, 0, 0, 0.459);
 }
 .gmail-input,
 .password-input,
