@@ -93,7 +93,7 @@ loginForm.addEventListener("submit", function (e) {
 });
 function validation() {
   var regex = {
-    a: /^[a-z]{3}/,
+    a: /^[a-zA-Z]{3}/,
     s: /.com$/,
     d: /\w{5}/,
   };
