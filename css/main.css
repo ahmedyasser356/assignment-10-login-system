@@ -1,0 +1,117 @@
+body {
+  background-image: url(../imgs/bg-img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+form {
+  width: 375px;
+  border-radius: 15px;
+  border: 1px white solid;
+  backdrop-filter: blur(20px);
+}
+.gmail-input,
+.password-input,
+.username-input {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 8px 10px;
+  padding-left: 14px;
+  padding-right: 20px;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+}
+.gmail-input:focus,
+.password-input:focus,
+.username-input:focus {
+  outline: transparent;
+}
+/* ==================== */
+.pointer {
+  cursor: pointer;
+}
+.decoration-line:hover {
+  text-decoration: underline !important;
+}
+/* ==================== */
+
+::placeholder {
+  color: white;
+}
+.fa-envelope,
+.fa-lock,
+.fa-user {
+  right: 15px;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+}
+.login-button,
+.signup-button {
+  outline: 0px transparent;
+  border: 0px transparent;
+  padding: 8px 0px;
+  font-size: 14px;
+}
+/* ======================== welcome layer ====================== */
+.welcome-layer {
+  background-color: #0092cc;
+}
+.nav {
+  width: 100%;
+  height: 90px;
+}
+.logout-button {
+  padding: 10px;
+  background-color: rgb(158, 6, 6);
+  outline: 0px transparent;
+  border: 0px transparent;
+  padding: 8px 22px;
+  background: #ff3e3e;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.logout-up {
+  box-shadow: 0 10px 20px rgba(235, 19, 19, 0.5);
+}
+.logout-down {
+  box-shadow: 0px 0px 15px red;
+}
+.nav a {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.welcome-name {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+  color: white;
+}
+.welcome-content {
+  margin-top: 90px;
+}
+.warning {
+  color: red;
+  text-align: left;
+  text-shadow: 0px 0px 1px white;
+  font-weight: 600;
+}
+.success-msg {
+  color: #fff100;
+  font-size: 18px;
+}
+.invalid {
+  color: red;
+  font-size: 16px;
+  text-shadow: 0px 0px 1px white;
+  font-weight: 600;
+}
+.gmail-exist {
+  color: red;
+  font-size: 16px;
+  font-weight: 600;
+  text-shadow: 0px 0px 1px white;
+}
